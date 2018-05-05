@@ -48,8 +48,8 @@ namespace Zya.IdentityServer.EntityFrameworkCore
         {
             if (!SkipDbSeed)
             {
-                SeedHelper.SeedHostDb(IocManager);
-                SeedHelper.SeedIdentityServerDb(new IdentityServerConfigurationDbContextFactory().CreateDbContext(null));
+                //SeedHelper.SeedHostDb(IocManager);
+               //SeedHelper.SeedIdentityServerDb(new IdentityServerConfigurationDbContextFactory().CreateDbContext(null));
                 
             }
         }
